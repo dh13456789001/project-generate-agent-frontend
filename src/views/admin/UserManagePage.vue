@@ -153,7 +153,7 @@ const doSearch = () => {
 
 
 // 删除数据
-const doDelete = async (id: string) => {
+const doDelete = async (id: number) => {
   if (!id) {
     return
   }
@@ -169,5 +169,7 @@ const doDelete = async (id: string) => {
 
 </script>
 <style scoped>
-
+#userManagePage{
+  width: 100%;
+}
 </style>
