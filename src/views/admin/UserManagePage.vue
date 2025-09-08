@@ -58,7 +58,7 @@
 
 import dayjs from "dayjs";
 import {computed, onMounted, reactive, ref} from "vue";
-import {listUserVoByPage} from "@/api/userController.ts";
+import {deleteUser, listUserVoByPage} from "@/api/userController.ts";
 import {message} from "ant-design-vue";
 
 const columns = [
